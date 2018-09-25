@@ -20,9 +20,9 @@ public class FragmentElectronics extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_fragment_technology, container, false);
+        View view = inflater.inflate(R.layout.fragment_fragment_electronics, container, false);
         RecyclerView recyclerView = (RecyclerView)
-                view.findViewById(R.id.fragment_technology_recycler_view);
+                view.findViewById(R.id.fragment_electronics_recycler_view);
         // Use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
         recyclerView.setHasFixedSize(true);

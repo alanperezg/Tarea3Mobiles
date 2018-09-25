@@ -20,9 +20,9 @@ public class FragmentHome extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_fragment_technology, container, false);
+        View view = inflater.inflate(R.layout.fragment_fragment_home, container, false);
         RecyclerView recyclerView = (RecyclerView)
-                view.findViewById(R.id.fragment_technology_recycler_view);
+                view.findViewById(R.id.fragment_home_recycler_view);
         // Use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
         recyclerView.setHasFixedSize(true);
